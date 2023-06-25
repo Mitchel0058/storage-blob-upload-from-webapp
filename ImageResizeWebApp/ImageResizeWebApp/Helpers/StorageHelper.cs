@@ -33,7 +33,7 @@ namespace ImageResizeWebApp.Helpers
             Uri blobUri = new Uri("https://" +
                                   _storageConfig.AccountName +
                                   ".blob.core.windows.net/" +
-                                  _storageConfig.ImageContainer +
+                                  _storageConfig.ThumbnailContainer +
                                   "/" + fileName);
 
             // Create StorageSharedKeyCredentials object by reading
